@@ -1,0 +1,19 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csr19us/algorithms.git"
+  },
+  "author": "Chris Rider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csr19us/algorithms/issues"
+  },
+  "homepage": "https://github.com/csr19us/algorithms#readme"
+}
