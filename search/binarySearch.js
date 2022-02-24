@@ -72,7 +72,7 @@ var target = 5
 var expected = 4;
 var output = binarySearch(arr, target);
 functionalTest.check(expected, output);
-/*
+
 var arr = [1, 2, 3, 4, 5];
 var target = 6
 var expected = -1;
@@ -90,4 +90,3 @@ var target = 986
 var expected = target - 1;
 var output = binarySearch(arr, target);
 functionalTest.check(expected, output);
-*/
