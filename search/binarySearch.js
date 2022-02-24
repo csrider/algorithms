@@ -6,7 +6,7 @@ const functionalTest = require('../functionalTest')
  * @param {array} arrSortedNums Array of sorted numbers to search within.
  * @param {number} numTarget Number to try to find in the array.
  */
-function binarySearch(arrSortedNums, numTarget) {
+function main(arrSortedNums, numTarget) {
     //return binarySearch_iterative(arrSortedNums, numTarget);
     return binarySearch_recursive(arrSortedNums, numTarget);
 }
@@ -58,31 +58,31 @@ function binarySearch_recursive(arrSortedNums, numTarget, leftBound, rightBound)
 var arr = [1, 2, 3, 4, 5];
 var target = 3
 var expected = 2;
-var output = binarySearch(arr, target);
+var output = main(arr, target);
 functionalTest.check(expected, output);
 
 var arr = [1, 2, 3, 4, 5];
 var target = 1
 var expected = 0;
-var output = binarySearch(arr, target);
+var output = main(arr, target);
 functionalTest.check(expected, output);
 
 var arr = [1, 2, 3, 4, 5];
 var target = 5
 var expected = 4;
-var output = binarySearch(arr, target);
+var output = main(arr, target);
 functionalTest.check(expected, output);
 
 var arr = [1, 2, 3, 4, 5];
 var target = 6
 var expected = -1;
-var output = binarySearch(arr, target);
+var output = main(arr, target);
 functionalTest.check(expected, output);
 
 var arr = [2, 5, 6, 8, 9, 10];
 var target = 5
 var expected = 1;
-var output = binarySearch(arr, target);
+var output = main(arr, target);
 functionalTest.check(expected, output);
 
 var arr = Array.from(Array(999999).keys());
